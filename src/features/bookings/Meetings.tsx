@@ -44,8 +44,7 @@ function BookingRow({ booking, request = false }: { booking: Booking; request?: 
       <div className="meeting-person">
         <h3>{person.name}</h3>
         <p>
-          {booking.meetingType}
-          {request ? ` · ${booking.topic}` : ''}
+          {booking.meetingType} · {booking.topic}
         </p>
       </div>
       <div className="meeting-row-date">

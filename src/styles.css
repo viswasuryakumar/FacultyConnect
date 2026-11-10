@@ -324,7 +324,7 @@ hr,
 .nav-container {
   max-width: 1240px;
   margin: auto;
-  min-height: 88px;
+  min-height: 72px;
   padding: 0 30px;
   display: flex;
   align-items: center;
@@ -496,15 +496,15 @@ hr,
 .main-container {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 43px 30px 65px;
-  min-height: calc(100vh - 207px);
+  padding: 32px 30px 65px;
+  min-height: calc(100vh - 191px);
 }
 .page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 .page-header p {
   margin-top: 9px;
@@ -598,7 +598,7 @@ hr,
   align-items: center;
   gap: 26px;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   overflow-x: auto;
 }
 .tab {
@@ -1205,13 +1205,13 @@ hr,
 .meeting-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 .meeting-row {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 22px 24px;
+  padding: 15px 22px;
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 11px;
@@ -1246,7 +1246,7 @@ hr,
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 .list-tools input {
   width: auto;
@@ -1468,7 +1468,7 @@ hr,
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 20px 0;
+  padding: 15px 0;
   border-bottom: 1px solid var(--border);
 }
 .error-page {

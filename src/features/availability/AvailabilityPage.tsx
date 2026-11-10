@@ -5,6 +5,7 @@ import { Button, PageHeader, Modal, Field, Notice, Badge } from '../../component
 import type { Availability, Booking, Interval } from '../../domain/types';
 import { service } from '../../services/preview';
 import { now } from '../../domain/clock';
+import { clockLabel, zoneLabel } from '../../lib/format';
 
 const days = [
   { index: 1, name: 'Monday' },
@@ -37,7 +38,9 @@ function dateLabel(date: string) {
 
 function hoursLabel(intervals: Interval[]) {
   return intervals.length
-    ? intervals.map((interval) => `${interval.start} – ${interval.end}`).join(', ')
+    ? intervals
+        .map((interval) => `${clockLabel(interval.start)} – ${clockLabel(interval.end)}`)
+        .join(', ')
     : 'Unavailable all day';
 }
 
@@ -123,7 +126,7 @@ export function AvailabilityPage() {
   const title = tab === 'Weekly hours' ? 'Availability' : tab;
   const description =
     tab === 'Weekly hours'
-      ? `Set your regular hours. Times shown in ${draft.timeZone.replaceAll('_', ' ')}.`
+      ? `Set your regular hours. Times shown in ${zoneLabel(draft.timeZone)}.`
       : 'Choose how students book an available 30-minute appointment.';
 
   return (

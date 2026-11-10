@@ -123,16 +123,8 @@ export function Dashboard() {
         <aside>
           <div className="stats-grid">
             <div className="stat">
-              <strong>
-                {isProfessor
-                  ? upcoming.filter(
-                      (b) =>
-                        dateKey(b.start, user.timeZone) === dateKey(now(), user.timeZone) &&
-                        b.status === 'confirmed',
-                    ).length
-                  : upcoming.filter((b) => b.status === 'confirmed').length}
-              </strong>
-              <span>{isProfessor ? 'Meetings today' : 'Upcoming meetings'}</span>
+              <strong>{upcoming.filter((b) => b.status === 'confirmed').length}</strong>
+              <span>Upcoming meetings</span>
             </div>
             <div className="stat">
               <strong>{pending.length}</strong>

@@ -35,6 +35,12 @@ export function zoneLabel(timeZone: string) {
       ? 'Eastern time'
       : timeZone.replaceAll('_', ' ');
 }
+/** Formats a stored 24-hour "HH:mm" value the same way meeting times are shown, e.g. "9:00 AM". */
+export function clockLabel(value: string) {
+  const [hour, minute] = value.split(':');
+  const numericHour = Number(hour);
+  return `${numericHour % 12 || 12}:${minute} ${numericHour >= 12 ? 'PM' : 'AM'}`;
+}
 export function dayOffset(key: string, offset: number) {
   const date = new Date(`${key}T12:00:00Z`);
   date.setUTCDate(date.getUTCDate() + offset);

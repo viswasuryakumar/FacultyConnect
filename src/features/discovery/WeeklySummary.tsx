@@ -1,5 +1,5 @@
 import type { Availability, Interval } from '../../domain/types';
-import { zoneLabel } from '../../lib/format';
+import { clockLabel as localTime, zoneLabel } from '../../lib/format';
 
 const days = [
   { id: 1, label: 'Monday' },
@@ -10,12 +10,6 @@ const days = [
   { id: 6, label: 'Saturday' },
   { id: 0, label: 'Sunday' },
 ];
-
-function localTime(value: string) {
-  const [hour, minute] = value.split(':');
-  const numericHour = Number(hour);
-  return `${numericHour % 12 || 12}:${minute} ${numericHour >= 12 ? 'PM' : 'AM'}`;
-}
 
 export function WeeklySummary({ availability }: { availability?: Availability }) {
   if (!availability || !Object.values(availability.weekly).some((intervals) => intervals.length)) {

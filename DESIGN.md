@@ -209,7 +209,7 @@ Profile prose is constrained to 70ch. Dates, time slots, meeting times and numer
 
 ## Layout
 
-The desktop shell uses a centered navigation container (1240px maximum) and main content container (1180px maximum). Navigation is 88px tall above the content; the separate preview strip has a minimum height of 34px. Main content has 30px side padding and 43px top padding.
+The desktop shell uses a centered navigation container (1240px maximum) and main content container (1180px maximum). Navigation is 72px tall above the content; the separate preview strip has a minimum height of 34px. Main content has 30px side padding and 32px top padding.
 
 The student dashboard places the next meeting beside two count cards in a 1.85:1 grid with a 26px gap. Discovery controls follow below. The approved dashboard contains the meeting, counts and discovery actions; additional recommendation cards do not belong to this composition. The directory uses three equal card columns and the supplied three professor fixtures: Sarah Chen, Alex Patel and Maya Rivera.
 
