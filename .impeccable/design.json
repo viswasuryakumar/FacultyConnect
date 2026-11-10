@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T15:17:12Z",
+  "title": "Design System: FacultyConnect",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.04072 281.30)",
+          "oklch(26.43% 0.04072 281.30)",
+          "oklch(37.86% 0.04072 281.30)",
+          "oklch(49.29% 0.04072 281.30)",
+          "oklch(60.71% 0.04072 281.30)",
+          "oklch(72.14% 0.04072 281.30)",
+          "oklch(83.57% 0.04072 281.30)",
+          "oklch(95.00% 0.04072 281.30)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15.00% 0.03102 285.31)",
+          "oklch(26.43% 0.03102 285.31)",
+          "oklch(37.86% 0.03102 285.31)",
+          "oklch(49.29% 0.03102 285.31)",
+          "oklch(60.71% 0.03102 285.31)",
+          "oklch(72.14% 0.03102 285.31)",
+          "oklch(83.57% 0.03102 285.31)",
+          "oklch(95.00% 0.03102 285.31)"
+        ]
+      },
+      "purple": {
+        "role": "primary",
+        "displayName": "Faculty purple",
+        "tonalRamp": [
+          "oklch(15.00% 0.21149 284.21)",
+          "oklch(26.43% 0.21149 284.21)",
+          "oklch(37.86% 0.21149 284.21)",
+          "oklch(49.29% 0.21149 284.21)",
+          "oklch(60.71% 0.21149 284.21)",
+          "oklch(72.14% 0.21149 284.21)",
+          "oklch(83.57% 0.21149 284.21)",
+          "oklch(95.00% 0.21149 284.21)"
+        ]
+      },
+      "purple-hover": {
+        "role": "primary",
+        "displayName": "Deep purple",
+        "tonalRamp": [
+          "oklch(15.00% 0.20588 283.20)",
+          "oklch(26.43% 0.20588 283.20)",
+          "oklch(37.86% 0.20588 283.20)",
+          "oklch(49.29% 0.20588 283.20)",
+          "oklch(60.71% 0.20588 283.20)",
+          "oklch(72.14% 0.20588 283.20)",
+          "oklch(83.57% 0.20588 283.20)",
+          "oklch(95.00% 0.20588 283.20)"
+        ]
+      },
+      "soft": {
+        "role": "primary",
+        "displayName": "Soft purple",
+        "tonalRamp": [
+          "oklch(15.00% 0.02173 297.42)",
+          "oklch(26.43% 0.02173 297.42)",
+          "oklch(37.86% 0.02173 297.42)",
+          "oklch(49.29% 0.02173 297.42)",
+          "oklch(60.71% 0.02173 297.42)",
+          "oklch(72.14% 0.02173 297.42)",
+          "oklch(83.57% 0.02173 297.42)",
+          "oklch(95.00% 0.02173 297.42)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.01227 296.34)",
+          "oklch(26.43% 0.01227 296.34)",
+          "oklch(37.86% 0.01227 296.34)",
+          "oklch(49.29% 0.01227 296.34)",
+          "oklch(60.71% 0.01227 296.34)",
+          "oklch(72.14% 0.01227 296.34)",
+          "oklch(83.57% 0.01227 296.34)",
+          "oklch(95.00% 0.01227 296.34)"
+        ]
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Page background",
+        "tonalRamp": [
+          "oklch(15.00% 0.00539 297.73)",
+          "oklch(26.43% 0.00539 297.73)",
+          "oklch(37.86% 0.00539 297.73)",
+          "oklch(49.29% 0.00539 297.73)",
+          "oklch(60.71% 0.00539 297.73)",
+          "oklch(72.14% 0.00539 297.73)",
+          "oklch(83.57% 0.00539 297.73)",
+          "oklch(95.00% 0.00539 297.73)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Status green",
+        "tonalRamp": [
+          "oklch(15.00% 0.09421 169.26)",
+          "oklch(26.43% 0.09421 169.26)",
+          "oklch(37.86% 0.09421 169.26)",
+          "oklch(49.29% 0.09421 169.26)",
+          "oklch(60.71% 0.09421 169.26)",
+          "oklch(72.14% 0.09421 169.26)",
+          "oklch(83.57% 0.09421 169.26)",
+          "oklch(95.00% 0.09421 169.26)"
+        ]
+      },
+      "green-soft": {
+        "role": "secondary",
+        "displayName": "Soft green",
+        "tonalRamp": [
+          "oklch(15.00% 0.01496 164.73)",
+          "oklch(26.43% 0.01496 164.73)",
+          "oklch(37.86% 0.01496 164.73)",
+          "oklch(49.29% 0.01496 164.73)",
+          "oklch(60.71% 0.01496 164.73)",
+          "oklch(72.14% 0.01496 164.73)",
+          "oklch(83.57% 0.01496 164.73)",
+          "oklch(95.00% 0.01496 164.73)"
+        ]
+      },
+      "pending": {
+        "role": "secondary",
+        "displayName": "Status amber",
+        "tonalRamp": [
+          "oklch(15.00% 0.10766 69.89)",
+          "oklch(26.43% 0.10766 69.89)",
+          "oklch(37.86% 0.10766 69.89)",
+          "oklch(49.29% 0.10766 69.89)",
+          "oklch(60.71% 0.10766 69.89)",
+          "oklch(72.14% 0.10766 69.89)",
+          "oklch(83.57% 0.10766 69.89)",
+          "oklch(95.00% 0.10766 69.89)"
+        ]
+      },
+      "pending-soft": {
+        "role": "secondary",
+        "displayName": "Soft amber",
+        "tonalRamp": [
+          "oklch(15.00% 0.02931 80.66)",
+          "oklch(26.43% 0.02931 80.66)",
+          "oklch(37.86% 0.02931 80.66)",
+          "oklch(49.29% 0.02931 80.66)",
+          "oklch(60.71% 0.02931 80.66)",
+          "oklch(72.14% 0.02931 80.66)",
+          "oklch(83.57% 0.02931 80.66)",
+          "oklch(95.00% 0.02931 80.66)"
+        ]
+      },
+      "danger": {
+        "role": "secondary",
+        "displayName": "Status red",
+        "tonalRamp": [
+          "oklch(15.00% 0.14052 23.70)",
+          "oklch(26.43% 0.14052 23.70)",
+          "oklch(37.86% 0.14052 23.70)",
+          "oklch(49.29% 0.14052 23.70)",
+          "oklch(60.71% 0.14052 23.70)",
+          "oklch(72.14% 0.14052 23.70)",
+          "oklch(83.57% 0.14052 23.70)",
+          "oklch(95.00% 0.14052 23.70)"
+        ]
+      },
+      "danger-soft": {
+        "role": "secondary",
+        "displayName": "Soft red",
+        "tonalRamp": [
+          "oklch(15.00% 0.01629 17.44)",
+          "oklch(26.43% 0.01629 17.44)",
+          "oklch(37.86% 0.01629 17.44)",
+          "oklch(49.29% 0.01629 17.44)",
+          "oklch(60.71% 0.01629 17.44)",
+          "oklch(72.14% 0.01629 17.44)",
+          "oklch(83.57% 0.01629 17.44)",
+          "oklch(95.00% 0.01629 17.44)"
+        ]
+      },
+      "zoom": {
+        "role": "secondary",
+        "displayName": "Zoom blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.21521 262.88)",
+          "oklch(26.43% 0.21521 262.88)",
+          "oklch(37.86% 0.21521 262.88)",
+          "oklch(49.29% 0.21521 262.88)",
+          "oklch(60.71% 0.21521 262.88)",
+          "oklch(72.14% 0.21521 262.88)",
+          "oklch(83.57% 0.21521 262.88)",
+          "oklch(95.00% 0.21521 262.88)"
+        ]
+      },
+      "zoom-hover": {
+        "role": "secondary",
+        "displayName": "Deep Zoom blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.21717 264.38)",
+          "oklch(26.43% 0.21717 264.38)",
+          "oklch(37.86% 0.21717 264.38)",
+          "oklch(49.29% 0.21717 264.38)",
+          "oklch(60.71% 0.21717 264.38)",
+          "oklch(72.14% 0.21717 264.38)",
+          "oklch(83.57% 0.21717 264.38)",
+          "oklch(95.00% 0.21717 264.38)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Sign-in story",
+        "purpose": "Large sign-in story headline; not the default application page heading."
+      },
+      "headline": {
+        "displayName": "Page heading",
+        "purpose": "Default desktop page title."
+      },
+      "headline-mobile": {
+        "displayName": "Mobile page heading",
+        "purpose": "Default page title at 640px and below."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Standard section heading; component-specific sizes remain in source."
+      },
+      "body": {
+        "displayName": "Panel body",
+        "purpose": "Typical 14px panel copy; not a new global body-size override."
+      },
+      "label": {
+        "displayName": "Action label",
+        "purpose": "Shared 14px semibold button labels."
+      },
+      "navigation": {
+        "displayName": "Navigation label",
+        "purpose": "Desktop links; 14px in the compact menu."
+      },
+      "small": {
+        "displayName": "Small metadata",
+        "purpose": "Supporting dates, metadata and secondary labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "account-menu",
+        "value": "0 12px 30px #24203b16",
+        "purpose": "Raised account menu."
+      },
+      {
+        "name": "dialog",
+        "value": "0 20px 80px #15102e35",
+        "purpose": "Modal dialog above a dimmed, 3px-blurred backdrop."
+      },
+      {
+        "name": "toast",
+        "value": "0 8px 24px #23243a25",
+        "purpose": "Transient message near the bottom center."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "0 10px 20px #23243a0a",
+        "purpose": "Small separation under the expanded menu."
+      },
+      {
+        "name": "selected-sign-in-role",
+        "value": "0 2px 5px #2d1c5510",
+        "purpose": "Selected role within the sign-in segmented picker."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "150ms ease",
+        "purpose": "Background, border or pressed-position transitions on existing controls."
+      },
+      {
+        "name": "button-press",
+        "value": "translateY(1px)",
+        "purpose": "Shared enabled button active state."
+      },
+      {
+        "name": "toast-entry",
+        "value": "200ms ease-out",
+        "purpose": "Toast enters from 8px below its resting position."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "The reduced-motion media query removes animation and transitions and restores automatic scrolling."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1450px"
+      },
+      {
+        "name": "compact-shell-max",
+        "value": "1100px"
+      },
+      {
+        "name": "compact-management-max",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile-navigation-max",
+        "value": "850px"
+      },
+      {
+        "name": "stack-management-max",
+        "value": "720px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary action using the shared control shape and states.",
+      "html": "<button class=\"ds-button-primary\" type=\"button\">Request meeting</button>",
+      "css": ".ds-button-primary{display:inline-flex;justify-content:center;align-items:center;gap:9px;min-height:44px;padding:11px 20px;border:1px solid transparent;border-radius:8px;font-family:Aptos, 'Segoe UI', sans-serif;font-weight:600;font-size:14px;line-height:1.3;transition:background .15s,box-shadow .15s,transform .15s;white-space:nowrap;text-decoration:none;cursor:pointer;background:var(--purple,#6046d8);color:#fff;}.ds-button-primary:hover:not(:disabled){background:#5137c4;}.ds-button-primary:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}.ds-button-primary:active:not(:disabled){transform:translateY(1px)}.ds-button-primary:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary action using the shared control shape and states.",
+      "html": "<button class=\"ds-button-secondary\" type=\"button\">View meeting</button>",
+      "css": ".ds-button-secondary{display:inline-flex;justify-content:center;align-items:center;gap:9px;min-height:44px;padding:11px 20px;border:1px solid transparent;border-radius:8px;font-family:Aptos, 'Segoe UI', sans-serif;font-weight:600;font-size:14px;line-height:1.3;transition:background .15s,box-shadow .15s,transform .15s;white-space:nowrap;text-decoration:none;cursor:pointer;background:#fff;border-color:var(--border,#e5e3ec);color:var(--purple,#6046d8);}.ds-button-secondary:hover:not(:disabled){background:var(--soft,#f0ecfc);border-color:#c8bdf0;}.ds-button-secondary:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}.ds-button-secondary:active:not(:disabled){transform:translateY(1px)}.ds-button-secondary:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Ghost action using the shared control shape and states.",
+      "html": "<button class=\"ds-button-ghost\" type=\"button\">Edit availability</button>",
+      "css": ".ds-button-ghost{display:inline-flex;justify-content:center;align-items:center;gap:9px;min-height:44px;padding:11px 20px;border:1px solid transparent;border-radius:8px;font-family:Aptos, 'Segoe UI', sans-serif;font-weight:600;font-size:14px;line-height:1.3;transition:background .15s,box-shadow .15s,transform .15s;white-space:nowrap;text-decoration:none;cursor:pointer;background:transparent;color:var(--purple,#6046d8);padding:9px 10px;}.ds-button-ghost:hover:not(:disabled){background:var(--soft,#f0ecfc);}.ds-button-ghost:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}.ds-button-ghost:active:not(:disabled){transform:translateY(1px)}.ds-button-ghost:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button-ghost{transition:none}}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Danger action using the shared control shape and states.",
+      "html": "<button class=\"ds-button-danger\" type=\"button\">Cancel meeting</button>",
+      "css": ".ds-button-danger{display:inline-flex;justify-content:center;align-items:center;gap:9px;min-height:44px;padding:11px 20px;border:1px solid transparent;border-radius:8px;font-family:Aptos, 'Segoe UI', sans-serif;font-weight:600;font-size:14px;line-height:1.3;transition:background .15s,box-shadow .15s,transform .15s;white-space:nowrap;text-decoration:none;cursor:pointer;background:#fff0f0;color:#ad3434;border-color:#f1cece;}.ds-button-danger:hover:not(:disabled){background:#ffe3e3;}.ds-button-danger:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}.ds-button-danger:active:not(:disabled){transform:translateY(1px)}.ds-button-danger:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button-danger{transition:none}}"
+    },
+    {
+      "name": "Zoom Button",
+      "kind": "button",
+      "refersTo": "button-zoom",
+      "description": "Meeting-specific provider action; the local preview explains it in a dialog.",
+      "html": "<button class=\"ds-button-zoom\" type=\"button\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m16 8 5-3v14l-5-3\"/><rect width=\"15\" height=\"16\" x=\"1\" y=\"4\" rx=\"2\"/></svg>Join Zoom</button>",
+      "css": ".ds-button-zoom{display:inline-flex;justify-content:center;align-items:center;gap:9px;min-height:44px;padding:11px 20px;border:1px solid transparent;border-radius:8px;font-family:Aptos, 'Segoe UI', sans-serif;font-weight:600;font-size:14px;line-height:1.3;transition:background .15s,box-shadow .15s,transform .15s;white-space:nowrap;text-decoration:none;cursor:pointer;background:#2563eb;color:#fff;}.ds-button-zoom:hover:not(:disabled){background:#1d4ed8;}.ds-button-zoom:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}.ds-button-zoom:active:not(:disabled){transform:translateY(1px)}.ds-button-zoom:disabled{opacity:.48;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-button-zoom{transition:none}}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Visible field label with the application's bordered input and focus state.",
+      "html": "<label class=\"ds-field\">Meeting topic<input class=\"ds-input\" placeholder=\"What would you like to discuss?\" /></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:8px;font-family:Aptos, 'Segoe UI', sans-serif;font-size:13px;font-weight:600;color:var(--ink,#23243a)}.ds-input{font-family:Aptos, 'Segoe UI', sans-serif;font-size:16px;font-weight:400;color:var(--ink,#23243a);background:#fff;border:1px solid var(--border,#e5e3ec);border-radius:8px;min-height:44px;padding:11px 13px;width:100%;caret-color:var(--purple,#6046d8)}.ds-input::placeholder{color:#706e80}.ds-input:hover{cursor:text}.ds-input:focus,.ds-input:focus-visible{outline:2px solid #bcb0ef;outline-offset:2px;border-color:var(--purple,#6046d8)}"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "Horizontal links with a soft active page; the application switches to a toggle-controlled menu on small screens.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a class=\"ds-nav-link ds-nav-active\" aria-current=\"page\" href=\"#dashboard\">Dashboard</a><a class=\"ds-nav-link\" href=\"#professors\">Find Professors</a><a class=\"ds-nav-link\" href=\"#meetings\">My Meetings</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-family:Aptos, 'Segoe UI', sans-serif}.ds-nav-link{font-size:13px;white-space:nowrap;color:var(--muted,#6c6c80);padding:12px 14px;border-radius:7px;font-weight:500;text-decoration:none}.ds-nav-link:hover{background:#f6f4fc;text-decoration:none}.ds-nav-active{background:var(--soft,#f0ecfc);color:var(--purple,#6046d8);font-weight:650}.ds-nav-link:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}@media(max-width:850px){.ds-nav{flex-direction:column;align-items:stretch}.ds-nav-link{font-size:14px;padding:13px}}"
+    },
+    {
+      "name": "Interest Chip",
+      "kind": "chip",
+      "refersTo": "interest-chip",
+      "description": "Compact link to a professor discovery filter.",
+      "html": "<a class=\"ds-interest-chip\" href=\"#machine-learning\">Machine learning</a>",
+      "css": ".ds-interest-chip{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:6px;background:var(--soft,#f0ecfc);color:#6551a9;font-family:Aptos, 'Segoe UI', sans-serif;font-size:12px;border:0;text-decoration:none}.ds-interest-chip:hover{text-decoration:underline;text-underline-offset:4px}.ds-interest-chip:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}"
+    },
+    {
+      "name": "Professor Card",
+      "kind": "card",
+      "refersTo": "professor-card",
+      "description": "One supplied professor fixture with initials, a save action, profile link and illustrative rating.",
+      "html": "<article class=\"ds-professor-card\"><div class=\"ds-card-row\"><span class=\"ds-avatar\">SC</span><button class=\"ds-save\" type=\"button\" aria-label=\"Save Dr. Sarah Chen\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z\"/></svg>Save</button></div><h2 class=\"ds-card-title\">Dr. Sarah Chen</h2><p class=\"ds-university\">Eastbridge University</p><p class=\"ds-expertise\">Machine learning · Python · Research</p><a class=\"ds-card-action\" href=\"#sarah-profile\">View profile <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a><div class=\"ds-rating\" title=\"Illustrative preview ratings\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"m12 2 3.1 6.3 7 .9-5.1 5 1.2 7-6.2-3.3-6.2 3.3 1.2-7-5.1-5 7-.9z\"/></svg><strong>4.9 / 5</strong><span>(24 reviews)</span></div></article>",
+      "css": ".ds-professor-card{background:#fff;border:1px solid var(--border,#e5e3ec);padding:24px;border-radius:12px;display:flex;flex-direction:column;font-family:Aptos, 'Segoe UI', sans-serif;color:var(--ink,#23243a);transition:border-color .15s}.ds-professor-card:hover{border-color:#b8a9e8}.ds-card-row{display:flex;align-items:center;justify-content:space-between;gap:16px}.ds-avatar{display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:12px;font-size:16px;font-weight:700;color:var(--purple,#6046d8);background:var(--soft,#f0ecfc)}.ds-save{border:0;background:none;display:flex;align-items:center;gap:5px;color:var(--muted,#6c6c80);font-family:Aptos, 'Segoe UI', sans-serif;font-size:12px;padding:6px;cursor:pointer}.ds-save[aria-pressed=true]{color:var(--purple,#6046d8)}.ds-card-title{font-size:20px;line-height:1.35;letter-spacing:-.015em;margin:21px 0 5px}.ds-university{font-size:13px;line-height:1.65;color:var(--muted,#6c6c80);margin:0}.ds-expertise{font-size:13px;margin:14px 0 20px;line-height:1.6;min-height:41px}.ds-card-action{display:inline-flex;justify-content:center;align-items:center;gap:9px;min-height:44px;padding:11px 20px;border:1px solid transparent;border-radius:8px;font-family:Aptos, 'Segoe UI', sans-serif;font-weight:600;font-size:14px;line-height:1.3;transition:background .15s,box-shadow .15s,transform .15s;white-space:nowrap;text-decoration:none;cursor:pointer;background:var(--purple,#6046d8);color:#fff;margin-top:auto}.ds-card-action:hover{background:#5137c4;text-decoration:none}.ds-card-action:active{transform:translateY(1px)}.ds-rating{font-size:12px;color:#986017;display:flex;align-items:center;justify-content:center;gap:5px;margin-top:16px}.ds-rating svg{color:#ad762b}.ds-save:focus-visible,.ds-card-action:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-professor-card,.ds-card-action{transition:none}}"
+    },
+    {
+      "name": "30-minute Time Slots",
+      "kind": "custom",
+      "refersTo": "time-slot",
+      "description": "Available and selected meeting starts; selected state carries an explicit pressed value.",
+      "html": "<div class=\"ds-slots\" role=\"group\" aria-label=\"30-minute start times, Pacific time\"><button type=\"button\" class=\"ds-time-slot\" aria-pressed=\"false\">9:00 AM</button><button type=\"button\" class=\"ds-time-slot ds-time-selected\" aria-pressed=\"true\">9:30 AM</button><button type=\"button\" class=\"ds-time-slot\" aria-pressed=\"false\">10:00 AM</button></div>",
+      "css": ".ds-slots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;max-height:280px;overflow:auto;padding:3px}.ds-time-slot{min-width:0;border:1px solid #ddd5f3;background:#fff;color:var(--purple,#6046d8);border-radius:7px;min-height:43px;font-family:Aptos, 'Segoe UI', sans-serif;font-size:13px;font-variant-numeric:tabular-nums;cursor:pointer}.ds-time-slot:hover{background:var(--soft,#f0ecfc)}.ds-time-selected{background:var(--purple,#6046d8);border-color:var(--purple,#6046d8);color:#fff}.ds-time-selected:hover{background:var(--purple,#6046d8);color:#fff}.ds-time-slot:focus-visible{outline:3px solid #9c8be8;outline-offset:4px;}@media(max-width:1100px){.ds-slots{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:640px){.ds-slots{grid-template-columns:repeat(3,minmax(0,1fr))}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The FacultyConnect application",
+    "overview": "Preserve the supplied presentation's application area: white navigation, a pale neutral page, purple actions, initial avatars and clear meeting statuses. The visual character is restrained and spacious. Meeting details and the next action lead the page.\n\nThis document records the implemented frontend from [PRODUCT.md](PRODUCT.md), [global styles](src/styles.css), [management styles](src/features/management.css), the application components and the desktop/mobile captures in [.impeccable/review](.impeccable/review). It is a source-derived manual record. The Impeccable context engine and detector were unavailable; no engine extraction or detector verdict is claimed. Token values in the frontmatter are normative; the sidecar extends them with interaction and layout metadata. Its synthesized tonal ramps are display metadata rather than additional application colors.",
+    "keyCharacteristics": [
+      "Purple and white surfaces with quiet borders.",
+      "Horizontal desktop navigation with a compact mobile menu.",
+      "Rounded cards, initial avatars and concise status labels.",
+      "Clear 30-minute booking choices and visible time zones.",
+      "Explicit local preview identity and provider explanations."
+    ],
+    "rules": [
+      {
+        "name": "The Status Text Rule",
+        "body": "Pair status color with a written label; booking status, link preparation and provider connection remain distinct.",
+        "section": "colors"
+      },
+      {
+        "name": "The Quiet Surface Rule",
+        "body": "Use border and tone for persistent content; reserve shadows for overlays and the existing selected-role treatment.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the supplied presentation's purple and white application area.",
+      "Do keep the next action, meeting status and time zone easy to find.",
+      "Do retain visible keyboard focus, written statuses and responsive wrapping.",
+      "Do use the local Aptos font when available and preserve the fallback stack.",
+      "Do label identity and provider behavior as preview behavior."
+    ],
+    "donts": [
+      "Don't bring the slide title bar, design-note rail or slide numbers into the application.",
+      "Don't add decorative elevation to the existing flat content surfaces.",
+      "Don't use provider blue as the general application accent.",
+      "Don't hide a status or selection meaning in color alone.",
+      "Don't invent real authentication, provider connection or external meeting behavior in a preview."
+    ]
+  }
+}

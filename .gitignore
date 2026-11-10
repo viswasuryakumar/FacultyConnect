@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.tools/
+*.tsbuildinfo
+test-results/
+playwright-report/
+*.log
+.impeccable/review/
+
+# Professor's presentation material — kept private
+reference/
